@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0923B88B23ABDF68006DBB63 /* AlbumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0923B88A23ABDF68006DBB63 /* AlbumViewModel.swift */; };
+		092EEB7623AB12EA00AFABD5 /* AlbumDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092EEB7523AB12EA00AFABD5 /* AlbumDetailViewController.swift */; };
+		092EEB7A23AB155D00AFABD5 /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092EEB7923AB155D00AFABD5 /* AlbumTableViewCell.swift */; };
+		099F205023AC35CC002AE883 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 099F204F23AC35CC002AE883 /* Default-568h@2x.png */; };
+		099F205223AC72AE002AE883 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 099F205123AC72AE002AE883 /* View.xib */; };
 		09A0B7D723A40500006769B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A0B7D623A40500006769B2 /* AppDelegate.swift */; };
-		09A0B7D923A40500006769B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A0B7D823A40500006769B2 /* ViewController.swift */; };
-		09A0B7DC23A40500006769B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09A0B7DA23A40500006769B2 /* Main.storyboard */; };
+		09A0B7D923A40500006769B2 /* AlbumController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A0B7D823A40500006769B2 /* AlbumController.swift */; };
 		09A0B7DE23A40500006769B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09A0B7DD23A40500006769B2 /* Assets.xcassets */; };
-		09A0B7E123A40500006769B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09A0B7DF23A40500006769B2 /* LaunchScreen.storyboard */; };
 		09A0B7EC23A40500006769B2 /* NikeProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A0B7EB23A40500006769B2 /* NikeProjectTests.swift */; };
+		09A0B7F923A4064E006769B2 /* AlbumRetrievalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A0B7F823A4064E006769B2 /* AlbumRetrievalService.swift */; };
+		09A0B7FB23A4085B006769B2 /* AlbumImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A0B7FA23A4085B006769B2 /* AlbumImageDownloader.swift */; };
+		09A0B7FE23A408ED006769B2 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A0B7FD23A408ED006769B2 /* Feed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +32,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09A0B7D323A40500006769B2 /* NikeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NikeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0923B88A23ABDF68006DBB63 /* AlbumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewModel.swift; sourceTree = "<group>"; };
+		092EEB7523AB12EA00AFABD5 /* AlbumDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailViewController.swift; sourceTree = "<group>"; };
+		092EEB7923AB155D00AFABD5 /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
+		099F204F23AC35CC002AE883 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		099F205123AC72AE002AE883 /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		09A0B7D323A40500006769B2 /* iTunesAlbumProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesAlbumProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09A0B7D623A40500006769B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		09A0B7D823A40500006769B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		09A0B7DB23A40500006769B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09A0B7D823A40500006769B2 /* AlbumController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumController.swift; sourceTree = "<group>"; };
 		09A0B7DD23A40500006769B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		09A0B7E023A40500006769B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09A0B7E223A40500006769B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		09A0B7E723A40500006769B2 /* NikeProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NikeProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09A0B7E723A40500006769B2 /* iTunesAlbumProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTunesAlbumProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09A0B7EB23A40500006769B2 /* NikeProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikeProjectTests.swift; sourceTree = "<group>"; };
 		09A0B7ED23A40500006769B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09A0B7F823A4064E006769B2 /* AlbumRetrievalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumRetrievalService.swift; sourceTree = "<group>"; };
+		09A0B7FA23A4085B006769B2 /* AlbumImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumImageDownloader.swift; sourceTree = "<group>"; };
+		09A0B7FD23A408ED006769B2 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +71,9 @@
 		09A0B7CA23A40500006769B2 = {
 			isa = PBXGroup;
 			children = (
-				09A0B7D523A40500006769B2 /* NikeProject */,
-				09A0B7EA23A40500006769B2 /* NikeProjectTests */,
+				099F204F23AC35CC002AE883 /* Default-568h@2x.png */,
+				09A0B7D523A40500006769B2 /* iTunesAlbumProject */,
+				09A0B7EA23A40500006769B2 /* iTunesAlbumProjectTests */,
 				09A0B7D423A40500006769B2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,40 +81,77 @@
 		09A0B7D423A40500006769B2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				09A0B7D323A40500006769B2 /* NikeProject.app */,
-				09A0B7E723A40500006769B2 /* NikeProjectTests.xctest */,
+				09A0B7D323A40500006769B2 /* iTunesAlbumProject.app */,
+				09A0B7E723A40500006769B2 /* iTunesAlbumProjectTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		09A0B7D523A40500006769B2 /* NikeProject */ = {
+		09A0B7D523A40500006769B2 /* iTunesAlbumProject */ = {
 			isa = PBXGroup;
 			children = (
+				09A0B80523A40D4A006769B2 /* Views */,
+				09A0B7FC23A408CC006769B2 /* Models */,
+				09A0B7F723A4060F006769B2 /* Services */,
+				09A0B7F623A40607006769B2 /* Controllers */,
 				09A0B7D623A40500006769B2 /* AppDelegate.swift */,
-				09A0B7D823A40500006769B2 /* ViewController.swift */,
-				09A0B7DA23A40500006769B2 /* Main.storyboard */,
 				09A0B7DD23A40500006769B2 /* Assets.xcassets */,
-				09A0B7DF23A40500006769B2 /* LaunchScreen.storyboard */,
 				09A0B7E223A40500006769B2 /* Info.plist */,
+				099F205123AC72AE002AE883 /* View.xib */,
 			);
-			path = NikeProject;
+			path = iTunesAlbumProject;
 			sourceTree = "<group>";
 		};
-		09A0B7EA23A40500006769B2 /* NikeProjectTests */ = {
+		09A0B7EA23A40500006769B2 /* iTunesAlbumProjectTests */ = {
 			isa = PBXGroup;
 			children = (
 				09A0B7EB23A40500006769B2 /* NikeProjectTests.swift */,
 				09A0B7ED23A40500006769B2 /* Info.plist */,
 			);
-			path = NikeProjectTests;
+			path = iTunesAlbumProjectTests;
+			sourceTree = "<group>";
+		};
+		09A0B7F623A40607006769B2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				09A0B7D823A40500006769B2 /* AlbumController.swift */,
+				092EEB7523AB12EA00AFABD5 /* AlbumDetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		09A0B7F723A4060F006769B2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				09A0B7F823A4064E006769B2 /* AlbumRetrievalService.swift */,
+				09A0B7FA23A4085B006769B2 /* AlbumImageDownloader.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		09A0B7FC23A408CC006769B2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				09A0B7FD23A408ED006769B2 /* Feed.swift */,
+				0923B88A23ABDF68006DBB63 /* AlbumViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		09A0B80523A40D4A006769B2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				092EEB7923AB155D00AFABD5 /* AlbumTableViewCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		09A0B7D223A40500006769B2 /* NikeProject */ = {
+		09A0B7D223A40500006769B2 /* iTunesAlbumProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 09A0B7F023A40500006769B2 /* Build configuration list for PBXNativeTarget "NikeProject" */;
+			buildConfigurationList = 09A0B7F023A40500006769B2 /* Build configuration list for PBXNativeTarget "iTunesAlbumProject" */;
 			buildPhases = (
 				09A0B7CF23A40500006769B2 /* Sources */,
 				09A0B7D023A40500006769B2 /* Frameworks */,
@@ -111,14 +161,14 @@
 			);
 			dependencies = (
 			);
-			name = NikeProject;
+			name = iTunesAlbumProject;
 			productName = NikeProject;
-			productReference = 09A0B7D323A40500006769B2 /* NikeProject.app */;
+			productReference = 09A0B7D323A40500006769B2 /* iTunesAlbumProject.app */;
 			productType = "com.apple.product-type.application";
 		};
-		09A0B7E623A40500006769B2 /* NikeProjectTests */ = {
+		09A0B7E623A40500006769B2 /* iTunesAlbumProjectTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 09A0B7F323A40500006769B2 /* Build configuration list for PBXNativeTarget "NikeProjectTests" */;
+			buildConfigurationList = 09A0B7F323A40500006769B2 /* Build configuration list for PBXNativeTarget "iTunesAlbumProjectTests" */;
 			buildPhases = (
 				09A0B7E323A40500006769B2 /* Sources */,
 				09A0B7E423A40500006769B2 /* Frameworks */,
@@ -129,9 +179,9 @@
 			dependencies = (
 				09A0B7E923A40500006769B2 /* PBXTargetDependency */,
 			);
-			name = NikeProjectTests;
+			name = iTunesAlbumProjectTests;
 			productName = NikeProjectTests;
-			productReference = 09A0B7E723A40500006769B2 /* NikeProjectTests.xctest */;
+			productReference = 09A0B7E723A40500006769B2 /* iTunesAlbumProjectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -155,7 +205,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 09A0B7CE23A40500006769B2 /* Build configuration list for PBXProject "NikeProject" */;
+			buildConfigurationList = 09A0B7CE23A40500006769B2 /* Build configuration list for PBXProject "iTunesAlbumProject" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -168,8 +218,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				09A0B7D223A40500006769B2 /* NikeProject */,
-				09A0B7E623A40500006769B2 /* NikeProjectTests */,
+				09A0B7D223A40500006769B2 /* iTunesAlbumProject */,
+				09A0B7E623A40500006769B2 /* iTunesAlbumProjectTests */,
 			);
 		};
 /* End PBXProject section */
@@ -179,9 +229,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09A0B7E123A40500006769B2 /* LaunchScreen.storyboard in Resources */,
 				09A0B7DE23A40500006769B2 /* Assets.xcassets in Resources */,
-				09A0B7DC23A40500006769B2 /* Main.storyboard in Resources */,
+				099F205223AC72AE002AE883 /* View.xib in Resources */,
+				099F205023AC35CC002AE883 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,8 +249,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09A0B7D923A40500006769B2 /* ViewController.swift in Sources */,
+				0923B88B23ABDF68006DBB63 /* AlbumViewModel.swift in Sources */,
+				09A0B7FB23A4085B006769B2 /* AlbumImageDownloader.swift in Sources */,
+				09A0B7F923A4064E006769B2 /* AlbumRetrievalService.swift in Sources */,
+				09A0B7D923A40500006769B2 /* AlbumController.swift in Sources */,
+				092EEB7623AB12EA00AFABD5 /* AlbumDetailViewController.swift in Sources */,
 				09A0B7D723A40500006769B2 /* AppDelegate.swift in Sources */,
+				09A0B7FE23A408ED006769B2 /* Feed.swift in Sources */,
+				092EEB7A23AB155D00AFABD5 /* AlbumTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,29 +273,10 @@
 /* Begin PBXTargetDependency section */
 		09A0B7E923A40500006769B2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 09A0B7D223A40500006769B2 /* NikeProject */;
+			target = 09A0B7D223A40500006769B2 /* iTunesAlbumProject */;
 			targetProxy = 09A0B7E823A40500006769B2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		09A0B7DA23A40500006769B2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				09A0B7DB23A40500006769B2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		09A0B7DF23A40500006769B2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				09A0B7E023A40500006769B2 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		09A0B7EE23A40500006769B2 /* Debug */ = {
@@ -354,9 +391,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NikeProject/Info.plist;
+				INFOPLIST_FILE = iTunesAlbumProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.HakimJoseph.NikeProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HakimJoseph.iTunesAlbumProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -368,9 +405,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NikeProject/Info.plist;
+				INFOPLIST_FILE = iTunesAlbumProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.HakimJoseph.NikeProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HakimJoseph.iTunesAlbumProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -412,7 +449,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		09A0B7CE23A40500006769B2 /* Build configuration list for PBXProject "NikeProject" */ = {
+		09A0B7CE23A40500006769B2 /* Build configuration list for PBXProject "iTunesAlbumProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				09A0B7EE23A40500006769B2 /* Debug */,
@@ -421,7 +458,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		09A0B7F023A40500006769B2 /* Build configuration list for PBXNativeTarget "NikeProject" */ = {
+		09A0B7F023A40500006769B2 /* Build configuration list for PBXNativeTarget "iTunesAlbumProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				09A0B7F123A40500006769B2 /* Debug */,
@@ -430,7 +467,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		09A0B7F323A40500006769B2 /* Build configuration list for PBXNativeTarget "NikeProjectTests" */ = {
+		09A0B7F323A40500006769B2 /* Build configuration list for PBXNativeTarget "iTunesAlbumProjectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				09A0B7F423A40500006769B2 /* Debug */,

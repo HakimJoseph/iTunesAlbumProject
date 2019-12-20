@@ -4,10 +4,23 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>NikeProject.xcscheme</key>
+		<key>iTunesAlbumProject.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>09A0B7D223A40500006769B2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>09A0B7E623A40500006769B2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

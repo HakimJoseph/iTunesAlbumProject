@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  NikeProject
+//  iTunesAlbumProject
 //
 //  Created by AbdullahFamily on 12/13/19.
 //  Copyright © 2019 HakimJoseph. All rights reserved.
@@ -16,6 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.main.bounds)
+        let navigationController = UINavigationController(rootViewController: AlbumController())
+        window?.rootViewController = navigationController
+        window?.makeKeyAndVisible()
+        window?.backgroundColor = .white
         return true
     }
 

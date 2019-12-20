@@ -1,13 +1,13 @@
 //
-//  NikeProjectTests.swift
-//  NikeProjectTests
+//  iTunesAlbumProjectTests.swift
+//  iTunesAlbumProjectTests
 //
 //  Created by AbdullahFamily on 12/13/19.
 //  Copyright © 2019 HakimJoseph. All rights reserved.
 //
 
 import XCTest
-@testable import NikeProject
+@testable import iTunesAlbumProject
 
 class NikeProjectTests: XCTestCase {
     
