@@ -58,12 +58,30 @@ extension AlbumController: UITableViewDelegate {
         cell.configure(with: viewModel)
         viewModel.downloadImage { image in
             DispatchQueue.main.async {
-                cell.imageView?.image = image
+                guard let albumCell = self.albumTableView.cellForRow(at: indexPath) as? AlbumTableViewCell else {
+                    return
+                }
+                albumCell.albumImageView.image = image
             }
         }
         return cell
     }
     func numberOfSections(in tableView: UITableView) -> Int {
+        if AlbumRetrievalService.shared.albumViewModels.isEmpty {
+            let noResultsLabel = UILabel(frame: CGRect(x: 0,
+                                                       y: 0,
+                                                       width: self.albumTableView.frame.width,
+                                                       height: self.albumTableView.frame.height))
+            noResultsLabel.text = "Pull To Refresh"
+            noResultsLabel.font = UIFont.systemFont(ofSize: 20, weight: .bold)
+            noResultsLabel.textAlignment = .center
+            albumTableView.backgroundView = noResultsLabel
+            albumTableView.separatorStyle = .none
+            return 0
+        } else {
+            albumTableView.backgroundView = nil
+            albumTableView.separatorStyle = .singleLine
+        }
         return 1
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

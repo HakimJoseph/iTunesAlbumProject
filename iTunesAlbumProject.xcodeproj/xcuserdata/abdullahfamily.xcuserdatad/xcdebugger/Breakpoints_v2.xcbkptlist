@@ -412,11 +412,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iTunesAlbumProject/Controllers/AlbumDetailViewController.swift"
-            timestampString = "598513656.603833"
+            timestampString = "598553946.6755511"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "136"
-            endingLineNumber = "136"
+            startingLineNumber = "141"
+            endingLineNumber = "141"
             landmarkName = "didTapButton()"
             landmarkType = "7">
          </BreakpointContent>

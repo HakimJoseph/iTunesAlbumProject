@@ -105,7 +105,12 @@ class AlbumDetailViewController: UIViewController {
         self.stackView.addArrangedSubview(self.albumInfoLabel(title: viewModel.artist, fontSize: 12.0, weight: .medium))
         
         self.stackView.addArrangedSubview(self.albumInfoHeaderLabel(title: "Genre(s)"))
-        self.stackView.addArrangedSubview(self.albumInfoLabel(title: viewModel.genres[1].name, fontSize: 12.0, weight: .medium))
+        var genres = [String]()
+        viewModel.genres.forEach { genre in
+            genres.append(genre.name)
+        }
+        let genresJoined = genres.joined(separator: ", ")
+        self.stackView.addArrangedSubview(self.albumInfoLabel(title: genresJoined, fontSize: 12.0, weight: .medium))
         
         self.stackView.addArrangedSubview(self.albumInfoHeaderLabel(title: "Release Date"))
         self.stackView.addArrangedSubview(self.albumInfoLabel(title: viewModel.releaseDate, fontSize: 12.0, weight: .medium))
