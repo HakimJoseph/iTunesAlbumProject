@@ -11,7 +11,6 @@
 		092EEB7623AB12EA00AFABD5 /* AlbumDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092EEB7523AB12EA00AFABD5 /* AlbumDetailViewController.swift */; };
 		092EEB7A23AB155D00AFABD5 /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092EEB7923AB155D00AFABD5 /* AlbumTableViewCell.swift */; };
 		099F205023AC35CC002AE883 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 099F204F23AC35CC002AE883 /* Default-568h@2x.png */; };
-		099F205223AC72AE002AE883 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 099F205123AC72AE002AE883 /* View.xib */; };
 		09A0B7D723A40500006769B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A0B7D623A40500006769B2 /* AppDelegate.swift */; };
 		09A0B7D923A40500006769B2 /* AlbumController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A0B7D823A40500006769B2 /* AlbumController.swift */; };
 		09A0B7DE23A40500006769B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09A0B7DD23A40500006769B2 /* Assets.xcassets */; };
@@ -36,7 +35,6 @@
 		092EEB7523AB12EA00AFABD5 /* AlbumDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailViewController.swift; sourceTree = "<group>"; };
 		092EEB7923AB155D00AFABD5 /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
 		099F204F23AC35CC002AE883 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		099F205123AC72AE002AE883 /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		09A0B7D323A40500006769B2 /* iTunesAlbumProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesAlbumProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09A0B7D623A40500006769B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09A0B7D823A40500006769B2 /* AlbumController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumController.swift; sourceTree = "<group>"; };
@@ -97,7 +95,6 @@
 				09A0B7D623A40500006769B2 /* AppDelegate.swift */,
 				09A0B7DD23A40500006769B2 /* Assets.xcassets */,
 				09A0B7E223A40500006769B2 /* Info.plist */,
-				099F205123AC72AE002AE883 /* View.xib */,
 			);
 			path = iTunesAlbumProject;
 			sourceTree = "<group>";
@@ -230,7 +227,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				09A0B7DE23A40500006769B2 /* Assets.xcassets in Resources */,
-				099F205223AC72AE002AE883 /* View.xib in Resources */,
 				099F205023AC35CC002AE883 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
